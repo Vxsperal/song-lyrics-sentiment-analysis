@@ -1,0 +1,15 @@
+{
+	"InstallScripts" : 
+	[
+		"/home/vxsperal/Downloads/song-lyrics-sentiment-analysis/scraper_cpp/build/cmake_install.cmake",
+		"/home/vxsperal/Downloads/song-lyrics-sentiment-analysis/scraper_cpp/build/external/curl/cmake_install.cmake",
+		"/home/vxsperal/Downloads/song-lyrics-sentiment-analysis/scraper_cpp/build/external/curl/docs/cmake_install.cmake",
+		"/home/vxsperal/Downloads/song-lyrics-sentiment-analysis/scraper_cpp/build/external/curl/docs/libcurl/cmake_install.cmake",
+		"/home/vxsperal/Downloads/song-lyrics-sentiment-analysis/scraper_cpp/build/external/curl/docs/libcurl/opts/cmake_install.cmake",
+		"/home/vxsperal/Downloads/song-lyrics-sentiment-analysis/scraper_cpp/build/external/curl/scripts/cmake_install.cmake",
+		"/home/vxsperal/Downloads/song-lyrics-sentiment-analysis/scraper_cpp/build/external/curl/lib/cmake_install.cmake",
+		"/home/vxsperal/Downloads/song-lyrics-sentiment-analysis/scraper_cpp/build/external/curl/docs/examples/cmake_install.cmake",
+		"/home/vxsperal/Downloads/song-lyrics-sentiment-analysis/scraper_cpp/build/external/json/cmake_install.cmake"
+	],
+	"Parallel" : false
+}

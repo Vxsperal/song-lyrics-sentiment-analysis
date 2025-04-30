@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file=CMakeFiles/lyrics_scraper.dir/link.d CMakeFiles/lyrics_scraper.dir/main.cpp.o CMakeFiles/lyrics_scraper.dir/getlyrics.cpp.o -o lyrics_scraper  -Wl,-rpath,/home/vxsperal/Downloads/song-lyrics-sentiment-analysis/scraper_cpp/build/external/curl/lib external/curl/lib/libcurl.so.4.8.0
