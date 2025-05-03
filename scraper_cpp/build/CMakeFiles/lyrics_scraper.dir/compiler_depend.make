@@ -251,6 +251,7 @@ CMakeFiles/lyrics_scraper.dir/getlyrics.cpp.o: /home/vxsperal/Downloads/song-lyr
   /usr/include/c++/14.2.1/bits/sstream.tcc \
   /usr/include/c++/14.2.1/bits/std_abs.h \
   /usr/include/c++/14.2.1/bits/std_function.h \
+  /usr/include/c++/14.2.1/bits/std_thread.h \
   /usr/include/c++/14.2.1/bits/stl_algo.h \
   /usr/include/c++/14.2.1/bits/stl_algobase.h \
   /usr/include/c++/14.2.1/bits/stl_bvector.h \
@@ -277,6 +278,7 @@ CMakeFiles/lyrics_scraper.dir/getlyrics.cpp.o: /home/vxsperal/Downloads/song-lyr
   /usr/include/c++/14.2.1/bits/streambuf_iterator.h \
   /usr/include/c++/14.2.1/bits/string_view.tcc \
   /usr/include/c++/14.2.1/bits/stringfwd.h \
+  /usr/include/c++/14.2.1/bits/this_thread_sleep.h \
   /usr/include/c++/14.2.1/bits/uniform_int_dist.h \
   /usr/include/c++/14.2.1/bits/unique_ptr.h \
   /usr/include/c++/14.2.1/bits/unordered_map.h \
@@ -293,6 +295,7 @@ CMakeFiles/lyrics_scraper.dir/getlyrics.cpp.o: /home/vxsperal/Downloads/song-lyr
   /usr/include/c++/14.2.1/cassert \
   /usr/include/c++/14.2.1/cctype \
   /usr/include/c++/14.2.1/cerrno \
+  /usr/include/c++/14.2.1/chrono \
   /usr/include/c++/14.2.1/clocale \
   /usr/include/c++/14.2.1/cmath \
   /usr/include/c++/14.2.1/codecvt \
@@ -350,6 +353,7 @@ CMakeFiles/lyrics_scraper.dir/getlyrics.cpp.o: /home/vxsperal/Downloads/song-lyr
   /usr/include/c++/14.2.1/string \
   /usr/include/c++/14.2.1/string_view \
   /usr/include/c++/14.2.1/system_error \
+  /usr/include/c++/14.2.1/thread \
   /usr/include/c++/14.2.1/tr1/bessel_function.tcc \
   /usr/include/c++/14.2.1/tr1/beta_function.tcc \
   /usr/include/c++/14.2.1/tr1/ell_integral.tcc \
@@ -617,6 +621,7 @@ CMakeFiles/lyrics_scraper.dir/main.cpp.o: /home/vxsperal/Downloads/song-lyrics-s
   /usr/include/c++/14.2.1/bits/fs_fwd.h \
   /usr/include/c++/14.2.1/bits/fs_ops.h \
   /usr/include/c++/14.2.1/bits/fs_path.h \
+  /usr/include/c++/14.2.1/bits/fstream.tcc \
   /usr/include/c++/14.2.1/bits/functexcept.h \
   /usr/include/c++/14.2.1/bits/functional_hash.h \
   /usr/include/c++/14.2.1/bits/gslice.h \
@@ -725,6 +730,7 @@ CMakeFiles/lyrics_scraper.dir/main.cpp.o: /home/vxsperal/Downloads/song-lyrics-s
   /usr/include/c++/14.2.1/ext/type_traits.h \
   /usr/include/c++/14.2.1/filesystem \
   /usr/include/c++/14.2.1/forward_list \
+  /usr/include/c++/14.2.1/fstream \
   /usr/include/c++/14.2.1/functional \
   /usr/include/c++/14.2.1/initializer_list \
   /usr/include/c++/14.2.1/iomanip \
@@ -774,8 +780,10 @@ CMakeFiles/lyrics_scraper.dir/main.cpp.o: /home/vxsperal/Downloads/song-lyrics-s
   /usr/include/c++/14.2.1/vector \
   /usr/include/c++/14.2.1/version \
   /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/atomic_word.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/basic_file.h \
   /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++allocator.h \
   /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++config.h \
+  /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++io.h \
   /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/c++locale.h \
   /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/cpu_defines.h \
   /usr/include/c++/14.2.1/x86_64-pc-linux-gnu/bits/ctype_base.h \
@@ -1095,6 +1103,8 @@ external/curl/lib/libcurl.so.4.8.0:
 
 /usr/include/c++/14.2.1/bits/stl_iterator_base_funcs.h:
 
+/usr/include/c++/14.2.1/bits/stl_heap.h:
+
 /usr/include/c++/14.2.1/pstl/glue_algorithm_defs.h:
 
 /usr/include/bits/types/__fpos64_t.h:
@@ -1163,6 +1173,8 @@ external/curl/lib/libcurl.so.4.8.0:
 
 /usr/include/bits/fp-logb.h:
 
+/usr/include/c++/14.2.1/chrono:
+
 /usr/include/asm-generic/errno.h:
 
 /usr/lib/libbrotlicommon.so.1:
@@ -1196,8 +1208,6 @@ external/curl/lib/libcurl.so.4.8.0:
 /usr/include/c++/14.2.1/vector:
 
 /usr/include/bits/floatn-common.h:
-
-/usr/include/c++/14.2.1/bits/gslice.h:
 
 /usr/lib/libm.so.6:
 
@@ -1262,6 +1272,8 @@ external/curl/lib/libcurl.so.4.8.0:
 /usr/include/asm-generic/socket.h:
 
 /usr/lib/libm.so:
+
+/usr/include/c++/14.2.1/bits/this_thread_sleep.h:
 
 /home/vxsperal/Downloads/song-lyrics-sentiment-analysis/scraper_cpp/external/json/include/nlohmann/detail/iterators/iteration_proxy.hpp:
 
@@ -1394,6 +1406,10 @@ external/curl/lib/libcurl.so.4.8.0:
 /home/vxsperal/Downloads/song-lyrics-sentiment-analysis/scraper_cpp/external/json/include/nlohmann/adl_serializer.hpp:
 
 /usr/include/c++/14.2.1/bits/deque.tcc:
+
+/usr/include/c++/14.2.1/bits/gslice.h:
+
+/usr/include/c++/14.2.1/bits/std_thread.h:
 
 /usr/include/alloca.h:
 
@@ -1558,6 +1574,8 @@ CMakeFiles/lyrics_scraper.dir/main.cpp.o:
 /usr/include/bits/types/struct_sched_param.h:
 
 /usr/include/bits/types/struct_timespec.h:
+
+/usr/include/c++/14.2.1/thread:
 
 /usr/include/bits/types/struct_timeval.h:
 
@@ -1772,5 +1790,3 @@ CMakeFiles/lyrics_scraper.dir/main.cpp.o:
 /usr/include/c++/14.2.1/bits/std_abs.h:
 
 /usr/include/c++/14.2.1/bits/stl_bvector.h:
-
-/usr/include/c++/14.2.1/bits/stl_heap.h:
