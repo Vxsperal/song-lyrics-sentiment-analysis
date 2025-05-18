@@ -13,6 +13,7 @@ int main(){
 
     // Check if the file was opened successfully
     if (!file.is_open()) {
+         
         std::cerr << "Failed to open file!" << std::endl;
         return 1;  // Exit with error code
     }

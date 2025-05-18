@@ -302,6 +302,7 @@ CMakeFiles/lyrics_scraper.dir/getlyrics.cpp.o
  /usr/include/c++/14.2.1/codecvt
  /usr/include/c++/14.2.1/compare
  /usr/include/c++/14.2.1/concepts
+ /usr/include/c++/14.2.1/csetjmp
  /usr/include/c++/14.2.1/cstddef
  /usr/include/c++/14.2.1/cstdint
  /usr/include/c++/14.2.1/cstdio
@@ -409,6 +410,7 @@ CMakeFiles/lyrics_scraper.dir/getlyrics.cpp.o
  /usr/include/math.h
  /usr/include/pthread.h
  /usr/include/sched.h
+ /usr/include/setjmp.h
  /usr/include/stdc-predef.h
  /usr/include/stdint.h
  /usr/include/stdio.h

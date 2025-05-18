@@ -16,9 +16,10 @@ class getlyrics{
             std::string artist;
         };
         std::unordered_map<std::string,std::vector<songinfo>> hashMapURL;
+        //removed tokens for github
         std::string clientScrt = "";
         std::string clienetID = "";
-        std::string tokenApiGenius = "";
+        std::string tokenApiGenius = ""; 
         static size_t WriteCallback(void* contents, size_t size, size_t chunks, std::string* output);
         static size_t HeaderCallback(char* buffer, size_t size, size_t nitems, void* userdata);
         std::string httpGet(const std::string& url, const std::string& token_api);

@@ -301,6 +301,7 @@ CMakeFiles/lyrics_scraper.dir/getlyrics.cpp.o: /home/vxsperal/Downloads/song-lyr
   /usr/include/c++/14.2.1/codecvt \
   /usr/include/c++/14.2.1/compare \
   /usr/include/c++/14.2.1/concepts \
+  /usr/include/c++/14.2.1/csetjmp \
   /usr/include/c++/14.2.1/cstddef \
   /usr/include/c++/14.2.1/cstdint \
   /usr/include/c++/14.2.1/cstdio \
@@ -408,6 +409,7 @@ CMakeFiles/lyrics_scraper.dir/getlyrics.cpp.o: /home/vxsperal/Downloads/song-lyr
   /usr/include/math.h \
   /usr/include/pthread.h \
   /usr/include/sched.h \
+  /usr/include/setjmp.h \
   /usr/include/stdc-predef.h \
   /usr/include/stdint.h \
   /usr/include/stdio.h \
@@ -1043,6 +1045,8 @@ external/curl/lib/libcurl.so.4.8.0:
 
 /usr/include/c++/14.2.1/cstdio:
 
+/usr/include/c++/14.2.1/csetjmp:
+
 /usr/include/c++/14.2.1/concepts:
 
 /usr/include/c++/14.2.1/compare:
@@ -1624,6 +1628,8 @@ CMakeFiles/lyrics_scraper.dir/main.cpp.o:
 /usr/include/c++/14.2.1/limits:
 
 /usr/include/c++/14.2.1/backward/binders.h:
+
+/usr/include/setjmp.h:
 
 /usr/include/c++/14.2.1/bits/vector.tcc:
 
